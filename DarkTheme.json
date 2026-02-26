@@ -1,0 +1,109 @@
+{
+  "name": "Clean Dark UI",
+  "dataColors": [
+    "#FF4D4D",
+    "#4DA6FF",
+    "#7D8597",
+    "#3A3F4B",
+    "#9CA3AF"
+  ],
+  "background": "#1F2430",
+  "foreground": "#E6E6E6",
+  "tableAccent": "#FF4D4D",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1F2430" } },
+            "show": true
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#2A2F3B" } },
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#1F2430" } },
+            "alignment": "left"
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#D1D5DB" } }
+          }
+        ]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#2A2F3B" } } }
+        ],
+        "foreground": [
+          { "color": { "solid": { "color": "#FFFFFF" } } }
+        ],
+        "selection": [
+          { "color": { "solid": { "color": "#FF4D4D" } } }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#3A3F4B" } },
+            "show": true
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#2A2F3B" } } }
+        ],
+        "labels": [
+          { "color": { "solid": { "color": "#FFFFFF" } } }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#9CA3AF" } } }
+        ]
+      }
+    },
+
+    "lineChart": {
+      "*": {
+        "dataColor": [
+          { "solid": { "color": "#FF4D4D" } }
+        ],
+        "secondary": [
+          { "solid": { "color": "#9CA3AF" } }
+        ]
+      }
+    },
+
+    "barChart": {
+      "*": {
+        "dataColor": [
+          { "solid": { "color": "#4DA6FF" } }
+        ],
+        "secondary": [
+          { "solid": { "color": "#7D8597" } }
+        ]
+      }
+    },
+
+    "pieChart": {
+      "*": {
+        "dataColor": [
+          { "solid": { "color": "#FF4D4D" } },
+          { "solid": { "color": "#4DA6FF" } }
+        ]
+      }
+    }
+  }
+}
